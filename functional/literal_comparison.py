@@ -40,8 +40,8 @@ if () is CONST:
 
 mystring = "ok"
 if mystring is "ok": # Returns true
-    # do stuff
+    pass
     
 mystring = "a" * 1000
 if mystring is ("a" * 1000): # This will return False
-    # do stuff
+    pass
